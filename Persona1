@@ -1,0 +1,25 @@
+Imports System
+
+Module Program
+    Sub Main(args As String())
+        Dim variable As Integer
+        Console.WriteLine()
+        Do Until variable = 4
+
+
+            Console.WriteLine("opcion 1")
+            Console.WriteLine("opcion2")
+            Console.WriteLine("opcion3")
+            Console.WriteLine("salir")
+            variable = 1 Then
+                Console.WriteLine("Dato ingresado correctamente")
+            If variable = 2 Then
+                Console.WriteLine("Dato ingresado incorrectamente")
+            ElseIf variable = 3 Then
+                Console.WriteLine("Ingrese nonbre y apellido")
+            End If
+            Console.WriteLine("Cancelar/Salir/Cerrar")
+
+        Loop
+    End Sub
+End Module
